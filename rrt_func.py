@@ -29,3 +29,7 @@ def expand(x, y):
     q_near = nearest(pos)
     step = step(q_near, pos,step_size=15)
 
+def sample_Xrand(self):
+      x = float(random.uniform(0, mapx))
+      y = float(random.uniform(0, mapy))
+      return x, y
